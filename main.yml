@@ -1,0 +1,6 @@
+- name: Webserver Playbook
+  import_playbook: webserver.yml
+
+- name: LoadBalancer Playbook
+  import_playbook: LoadBalancer.yml
+
